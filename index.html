@@ -3,11 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This link for font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- this link for store icone by java script -->
+<link rel="stylesheet" href="style.css">
     <title>Store</title>
 </head>
 <body>
    
-
+<header>
     
+    <i class='fa fa-shopping-cart'></i>
+    <nav>
+        <ul>
+            <!-- the nav bar take us to defferent pages -->
+            <li><a href="">Home</a> </li> <span>|</span>
+            <li><a href="">About us</a> </li> <span>|</span>
+            <li><a href="">Contact us</a> </li> <span>|</span>
+            <li><a href="">Partner</a> </li>
+        </ul>
+    </nav>
+    <input type="text" placeholder="Enter your product name">
+    <button id="search"><i class="fa fa-search"></i></button>
+</header>
+
+<section>
+    <!-- this section for content -->
+    <div class="img">
+    <div class="basketball">
+        <h2>Sport Hat</h2>
+<img src="./images/hat.jpg" alt="" class="hhh">
+<p>Read More</p>
+    </div>
+    <div class="ball2">
+        <h2>Volleyball</h2>
+<img src="./images/ball2.jpg" alt="" class="hhh">
+<p>Read More</p>
+    </div>
+    <div class="hat">
+        <h2>Basketball</h2>
+<img src="./images/ball.jpg" alt="" class="hhh">
+<p>Read More</p>
+    </div>
+    </div>
+
+</section>
+
+
+<footer>
+    <div class="contact">
+        <!-- contact with me on these information -->
+        <h2>Contact us</h2>
+        <p>Tel : 00962779367764</p>
+        <p>Address: Amman , LTUS </p>
+    </div>
+    <div class="contact">
+        <!-- also you can contact with me on social media -->
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-skype"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+    </div>
+    <div class="contact1">
+        <!-- therd way for contact which by email and send a massege -->
+        <input type="text" placeholder="Enter Your name">
+        <input type="text" placeholder="Enter Your Email">
+        <textarea placeholder="Enter Your Massege"></textarea><br>
+        <button>Send</button>
+    </div>
+    <!-- this is my website -->
+    <h3>Powred By <a href="https://hamzarashed.herokuapp.com/">Hamza Rashed </a> </h3>
+</footer>
+<script>
+    
+    let search = document.getElementById('search')
+    
+    let attintion = () =>{
+        search.onclick = () =>{
+            alert('يا جماعة مستعجلين على البحث لسا مو شغال')
+        }
+    }
+    attintion();
+</script>
 </body>
 </html>

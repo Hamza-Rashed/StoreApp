@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    transition: .5s;
+}
+body{
+    background-color: rgb(218, 212, 212);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    background-color: rgb(13, 0, 59);
+    z-index: 1;
+}
+header input{
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    margin-left:5%;
+    margin-top: 12px;
+    font-size: 20px;
+}
+header button{
+    width: 5%;
+    height: 50px;
+    margin-top: 12px;
+    background-color: rgb(235, 182, 50);
+    border: none;
+    outline: none;
+    margin-left: -2px;
+    cursor: pointer;
+}
+header button .fa-search{
+    margin-top: -10px;
+    margin-left: -12px;
+}
+header span {
+    font-size: 30px;
+    color: white;
+}
+nav{
+    margin-top: 8px;
+    margin-left: 25%;
+}
+nav ul li {
+list-style: none;
+display: inline-block;
+padding: 20px;
+margin-top: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+nav ul li a:focus{
+    color: rgb(253, 253, 253);
+}
+hr{
+    margin-top: 75px;
+    color: rgb(230, 222, 221);
+}
+.fa-shopping-cart{
+    font-size:70px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+
+}
+ .img{
+margin-top: 83px;
+margin-left: 10%;
+margin-right: 10%;
+width: 100;
+height: 63vh;
+background-image: url('./images/Fuji_TallHero_Sports_en_US_1x._CB431860448_.jpg');
+background-repeat: no-repeat;
+background: linear-gradient(left , white , white);
+}
+section{
+    width: 100%;
+    text-align: center;
+}
+
+.basketball , .ball2 , .hat {
+    position: relative;
+    top: 150px;
+    float: left;
+    margin: 20px;
+    background-color: white;
+    width: 30%;
+    height: 500px;
+    box-shadow: 1px 1px 5px 1px rgb(139, 127, 127);
+    border-radius: 10px;
+}
+
+ .hhh{
+     margin-top: 20px;
+    width: 80%;
+    height: 280px;
+}
+.basketball{
+    margin-left: 30px;
+}
+
+section h2{
+    color: black;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.basketball:hover {
+    margin-top: -30px;
+}
+.ball2:hover {
+    margin-top: -30px;
+}
+.hat:hover {
+    margin-top: -30px;
+}
+
+section p{
+    position: relative;
+    top: 100px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(80, 70, 70);
+    bottom: -400px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    position: absolute;
+    display: flex;
+}
+
+.contact{
+    width: 23%;
+    margin-top: 120px;
+    margin-left: 6%;
+    text-align: center;
+    color: rgb(218, 215, 204);
+}
+footer p{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+footer h3{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+color: #999;
+}
+footer a{
+    color: rgb(80, 80, 241);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 80px;
+    font-size: 40px;
+    border-radius: 50%;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 80px;
+    font-size: 40px;
+    border-radius: 50%;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+    width: 80px;
+    font-size: 40px;
+    border-radius: 50%;
+  }
+  .fa-github {
+    background: white;
+    color: black;
+    width: 80px;
+    font-size: 45px;
+    border-radius: 50%;
+  }
+
+  footer input{
+margin: 10px;
+width: 100%;
+height: 50px;
+
+  }
+  footer textarea{
+    margin: 10px;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+      }
+  .contact1{
+    width: 23%;
+    margin-top: 40px;
+    margin-left: 6%;
+    text-align: center;
+    color: rgb(218, 215, 204);
+}
+footer button{
+    width: 50%;
+    margin-top: 10px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
